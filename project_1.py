@@ -1,5 +1,5 @@
 #description of the program
-print('''Hello and welcom to the interactive personal data collector!
+print('''Hello and welcome to the interactive personal data collector!
 This collector collects your information and proides it to you in a systematic way
 It also prints the type and memory address of the variable
 and also it prints you your birth year according to your age''')

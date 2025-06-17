@@ -1,5 +1,5 @@
 #description of the program
-print('''Hello and welcom to pattern generation and number analyzer!
+print('''Hello and welcome to pattern generation and number analyzer!
 It genertes pattern 
 It analyse the numbers in odd and even and also gives the sum of numbers''')
 
