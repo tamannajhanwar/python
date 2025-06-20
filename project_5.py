@@ -1,4 +1,7 @@
-print('hello and welcome to Employee management system')
+print('hello and welcome to Employee management system!')
+print(end="\n")
+print(end="\n")
+print(end="\n")
 
 while True:
     print('choose an option:')
@@ -8,7 +11,8 @@ while True:
     print('4.Show details')
     print('5.Exit')
     a=int(input('Enter ypur choice: '))
-    
+    print(end="\n")
+    print(end="\n")
     #creating an employee
     if a==1:
         class Employee:
@@ -32,13 +36,15 @@ while True:
                 salary: {self.salary}''')
         emp=[]
         n=int(input('how many employee you want to create: '))
+        print(end="\n")
         for i in range(n):
             emp.append(Employee())
         for i in range(n):
             emp[i].setdata()
         for i in range(n):
             emp[i].getdata()
-    
+        print(end="\n")
+        print(end="\n")
     # creating a manager
     elif a==2:
         class Manager(Employee):
@@ -59,13 +65,15 @@ while True:
                 department: {self.department}''')
         man=[]
         n=int(input('how many manager you want to create: '))
+        print(end="\n")
         for i in range(n):
             man.append(Manager())
         for i in range(n):
             man[i].setdata()
         for i in range(n):
             man[i].getdata()
-
+        print(end="\n")
+        print(end="\n")
     elif a==3:
         class Developer(Employee):
             def __init__(self):
@@ -85,34 +93,44 @@ while True:
                 programing_lang: {self.programing_lang}''')
         devl=[]
         n=int(input('how many developer you want to create: '))
+        print(end="\n")
         for i in range(n):
             devl.append(Developer())
         for i in range(n):
             devl[i].setdata()
         for i in range(n):
             devl[i].getdata()
-
+        print(end="\n")
+        print(end="\n")
     elif a==4:
         print('choose detais to show')
         print('1.employee')
         print('2.manager')
         print('3.developer')
         b=int(input('Enter the choice: '))
-
+        print(end="\n")
         if b==1:
             print('employee details:')
             for e in emp:
                e.getdata() 
+            print(end="\n")
+            print(end="\n")
         elif b==2:
             print('manager details:')
             for e in man:
                 e.getdata()
+            print(end="\n")
+            print(end="\n")
         elif b==3:
             print('develper details:')
             for e in devl:
                 e.getdata()
+            print(end="\n")
+            print(end="\n")
         else:
             print('invalid choice')
+            print(end="\n")
+            print(end="\n")
     elif a==5:
         print('Thank you for using Employee management system , hope you liked it')
         print('    __________                                                     ___             ')
